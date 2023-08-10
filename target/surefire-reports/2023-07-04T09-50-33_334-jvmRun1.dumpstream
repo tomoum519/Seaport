@@ -1,0 +1,385 @@
+# Created at 2023-07-04T09:51:09.114
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-07-04T09:51:10.284
+Unexpected IOException with stream: Jul 04, 2023 9:51:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2023-07-04T09:51:10.308
+Unexpected IOException with stream: Jul 04, 2023 9:51:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: a no-op implementation
+
+
+# Created at 2023-07-04T09:51:10.309
+Unexpected IOException with stream: Jul 04, 2023 9:51:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 114.
+
+
+# Created at 2023-07-04T09:51:10.310
+Unexpected IOException with stream: Jul 04, 2023 9:51:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
+# Created at 2023-07-04T09:51:10.443
+Unexpected IOException: 5,1,runner.TestRunner,runScenario(runner.TestRunner),cucumber,null,null
+
+
+# Created at 2023-07-04T09:51:10.453
+Unexpected IOException with stream: 
+@testcasekey=TRKNGB-47302 @testcasekey=TRKNGB-47309
+Scenario: Register with new owner and click yes on popup and check that navigat to vessel registration [90m# src/test/resources/Features/OwnerRegistration.feature:13[0m
+
+
+# Created at 2023-07-04T09:51:12.866
+Unexpected IOException with stream: [
+
+# Created at 2023-07-04T09:51:12.867
+Unexpected IOException with stream: 1
+
+# Created at 2023-07-04T09:51:12.868
+Unexpected IOException with stream: 6
+
+# Created at 2023-07-04T09:51:12.869
+Unexpected IOException with stream: 8
+
+# Created at 2023-07-04T09:51:12.870
+Unexpected IOException with stream: 8
+
+# Created at 2023-07-04T09:51:12.871
+Unexpected IOException with stream: 4
+
+# Created at 2023-07-04T09:51:12.872
+Unexpected IOException with stream: 5
+
+# Created at 2023-07-04T09:51:12.873
+Unexpected IOException with stream: 7
+
+# Created at 2023-07-04T09:51:12.874
+Unexpected IOException with stream: 0
+
+# Created at 2023-07-04T09:51:12.874
+Unexpected IOException with stream: 7
+
+# Created at 2023-07-04T09:51:12.875
+Unexpected IOException with stream: 2
+
+# Created at 2023-07-04T09:51:12.876
+Unexpected IOException with stream: .
+
+# Created at 2023-07-04T09:51:12.876
+Unexpected IOException with stream: 8
+
+# Created at 2023-07-04T09:51:12.883
+Unexpected IOException with stream: 6
+
+# Created at 2023-07-04T09:51:12.884
+Unexpected IOException with stream: 5
+
+# Created at 2023-07-04T09:51:12.885
+Unexpected IOException with stream: ]
+
+# Created at 2023-07-04T09:51:12.886
+Unexpected IOException with stream: [
+
+# Created at 2023-07-04T09:51:12.887
+Unexpected IOException with stream: S
+
+# Created at 2023-07-04T09:51:12.887
+Unexpected IOException with stream: E
+
+# Created at 2023-07-04T09:51:12.888
+Unexpected IOException with stream: V
+
+# Created at 2023-07-04T09:51:12.889
+Unexpected IOException with stream: E
+
+# Created at 2023-07-04T09:51:12.890
+Unexpected IOException with stream: R
+
+# Created at 2023-07-04T09:51:12.890
+Unexpected IOException with stream: E
+
+# Created at 2023-07-04T09:51:12.891
+Unexpected IOException with stream: ]
+
+# Created at 2023-07-04T09:51:12.892
+Unexpected IOException with stream: :
+
+# Created at 2023-07-04T09:51:12.893
+Unexpected IOException with stream:  
+
+# Created at 2023-07-04T09:51:12.894
+Unexpected IOException with stream: U
+
+# Created at 2023-07-04T09:51:12.895
+Unexpected IOException with stream: n
+
+# Created at 2023-07-04T09:51:12.896
+Unexpected IOException with stream: a
+
+# Created at 2023-07-04T09:51:12.897
+Unexpected IOException with stream: b
+
+# Created at 2023-07-04T09:51:12.898
+Unexpected IOException with stream: l
+
+# Created at 2023-07-04T09:51:12.899
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.900
+Unexpected IOException with stream:  
+
+# Created at 2023-07-04T09:51:12.901
+Unexpected IOException with stream: t
+
+# Created at 2023-07-04T09:51:12.902
+Unexpected IOException with stream: o
+
+# Created at 2023-07-04T09:51:12.903
+Unexpected IOException with stream:  
+
+# Created at 2023-07-04T09:51:12.904
+Unexpected IOException with stream: r
+
+# Created at 2023-07-04T09:51:12.906
+Unexpected IOException with stream:   [31mGiven [0m[31mlogin Vission Dashboard and go to SeaPort[0m                                                      [90m# StepDefinitions.OwnerRegistrationSteps.login()[0m
+      [31morg.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'VD-AT-16', ip: '10.12.226.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baf292dd5996a8df443294fb2d86316f, findElement {using=xpath, value=/html/body/app-root/div/app-dashboard/div[2]/div[1]/section/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LOCAL_~1.TOM\Temp\...}, goog:chromeOptions: {debuggerAddress: localhost:59789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59789/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baf292dd5996a8df443294fb2d86316f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at pages.BasePage.clickElement(BasePage.java:55)
+	at pages.LoginPage.click_BorderControl(LoginPage.java:41)
+	at StepDefinitions.OwnerRegistrationSteps.login(OwnerRegistrationSteps.java:40)
+	at âœ½.login Vission Dashboard and go to SeaPort(file:///C:/Users/v-ahmed.tomoum/eclipse-workspace/SeaPort/src/test/resources/Features/OwnerRegistration.feature:14)
+[0m
+
+
+# Created at 2023-07-04T09:51:12.908
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.909
+Unexpected IOException with stream: c
+
+# Created at 2023-07-04T09:51:12.910
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.911
+Unexpected IOException with stream: i
+
+# Created at 2023-07-04T09:51:12.912
+Unexpected IOException with stream: v
+
+# Created at 2023-07-04T09:51:12.912
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.913
+Unexpected IOException with stream:  
+
+# Created at 2023-07-04T09:51:12.914
+Unexpected IOException with stream: m
+
+# Created at 2023-07-04T09:51:12.915
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.916
+Unexpected IOException with stream: s
+
+# Created at 2023-07-04T09:51:12.917
+Unexpected IOException with stream: s
+
+# Created at 2023-07-04T09:51:12.917
+Unexpected IOException with stream: a
+
+# Created at 2023-07-04T09:51:12.918
+Unexpected IOException with stream: g
+
+# Created at 2023-07-04T09:51:12.919
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.920
+Unexpected IOException with stream:  
+
+# Created at 2023-07-04T09:51:12.920
+Unexpected IOException with stream: f
+
+# Created at 2023-07-04T09:51:12.921
+Unexpected IOException with stream: r
+
+# Created at 2023-07-04T09:51:12.922
+Unexpected IOException with stream: o
+
+# Created at 2023-07-04T09:51:12.923
+Unexpected IOException with stream: m
+
+# Created at 2023-07-04T09:51:12.923
+Unexpected IOException with stream:  
+
+# Created at 2023-07-04T09:51:12.925
+Unexpected IOException with stream:   [36mAnd [0m[36mUser navigate to Owner Registration[0m                                                              [90m# StepDefinitions.OwnerRegistrationSteps.goToOwnerRegistrationPage()[0m
+
+
+# Created at 2023-07-04T09:51:12.925
+Unexpected IOException with stream: r
+
+# Created at 2023-07-04T09:51:12.926
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.927
+Unexpected IOException with stream: n
+
+# Created at 2023-07-04T09:51:12.928
+Unexpected IOException with stream: d
+
+# Created at 2023-07-04T09:51:12.928
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.929
+Unexpected IOException with stream: r
+
+# Created at 2023-07-04T09:51:12.930
+Unexpected IOException with stream: e
+
+# Created at 2023-07-04T09:51:12.930
+Unexpected IOException with stream: r
+
+# Created at 2023-07-04T09:51:12.932
+Unexpected IOException with stream: 
+
+# Created at 2023-07-04T09:51:12.933
+Unexpected IOException with stream: 
+
+
+# Created at 2023-07-04T09:51:12.934
+Unexpected IOException with stream:   [36mWhen [0m[36mRegister a new owner name and nationality [0m[36m[1m"Egypt"[0m                                               [90m# StepDefinitions.OwnerRegistrationSteps.createNewOwner(java.lang.String)[0m
+
+
+# Created at 2023-07-04T09:51:12.935
+Unexpected IOException with stream:   [36mThen [0m[36mmsg will contain [0m[36m[1m"Owner registered successfully"[0m                                                [90m# StepDefinitions.OwnerRegistrationSteps.checkSuccMsg(java.lang.String)[0m
+
+
+# Created at 2023-07-04T09:51:12.936
+Unexpected IOException with stream:   [36mThen [0m[36mgo to vessal page and the title[0m                                                                 [90m# StepDefinitions.OwnerRegistrationSteps.checkvesselpage()[0m
+
+
+# Created at 2023-07-04T09:51:12.938
+Unexpected IOException: 8,1,runner.TestRunner,runScenario(runner.TestRunner),null,disconnected: received Inspector.detached event\000A  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C findElement {using=xpath\002C value=/html/body/app-root/div/app-dashboard/div[2]/div[1]/section/div/div[1]}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,null,disconnected: received Inspector.detached event\000A  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C findElement {using=xpath\002C value=/html/body/app-root/div/app-dashboard/div[2]/div[1]/section/div/div[1]}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,TestRunner.runScenario \00BB WebDriver disconnected: received Inspector.detached e...,org.openqa.selenium.WebDriverException: \000Adisconnected: received Inspector.detached event\000A  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C findElement {using=xpath\002C value=/html/body/app-root/div/app-dashboard/div[2]/div[1]/section/div/div[1]}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f\000A
+
+
+# Created at 2023-07-04T09:51:12.945
+Unexpected IOException: 8,1,runner.TestRunner,teardown(runner.TestRunner),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,TestRunner>TestBase.teardown:36 \00BB WebDriver disconnected: not connected to Dev...,org.openqa.selenium.WebDriverException: \000Adisconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f\000A
+
+
+# Created at 2023-07-04T09:51:12.947
+Unexpected IOException: 9,1,runner.TestRunner,setup(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.948
+Unexpected IOException: 5,1,runner.TestRunner,runScenario(runner.TestRunner),cucumber,null,null
+
+
+# Created at 2023-07-04T09:51:12.949
+Unexpected IOException: 9,1,runner.TestRunner,runScenario(runner.TestRunner),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,null
+
+
+# Created at 2023-07-04T09:51:12.950
+Unexpected IOException: 9,1,runner.TestRunner,teardown(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.951
+Unexpected IOException: 9,1,runner.TestRunner,setup(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.952
+Unexpected IOException: 5,1,runner.TestRunner,runScenario(runner.TestRunner),cucumber,null,null
+
+
+# Created at 2023-07-04T09:51:12.953
+Unexpected IOException: 9,1,runner.TestRunner,runScenario(runner.TestRunner),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,null
+
+
+# Created at 2023-07-04T09:51:12.954
+Unexpected IOException: 9,1,runner.TestRunner,teardown(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.955
+Unexpected IOException: 9,1,runner.TestRunner,setup(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.956
+Unexpected IOException: 5,1,runner.TestRunner,runScenario(runner.TestRunner),cucumber,null,null
+
+
+# Created at 2023-07-04T09:51:12.957
+Unexpected IOException: 9,1,runner.TestRunner,runScenario(runner.TestRunner),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,null
+
+
+# Created at 2023-07-04T09:51:12.958
+Unexpected IOException: 9,1,runner.TestRunner,teardown(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.959
+Unexpected IOException: 9,1,runner.TestRunner,setup(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:12.960
+Unexpected IOException: 5,1,runner.TestRunner,runScenario(runner.TestRunner),cucumber,null,null
+
+
+# Created at 2023-07-04T09:51:12.961
+Unexpected IOException: 9,1,runner.TestRunner,runScenario(runner.TestRunner),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=114.0.5735.199)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'VD-AT-16'\002C ip: '10.12.226.74'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [baf292dd5996a8df443294fb2d86316f\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 114.0.5735.199\002C chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f...\002C userDataDir: C:\005CUsers\005CLOCAL_~1.TOM\005CTemp\005C...}\002C goog:chromeOptions: {debuggerAddress: localhost:59789}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59789/devtoo...\002C se:cdpVersion: 114.0.5735.199\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: baf292dd5996a8df443294fb2d86316f,null
+
+
+# Created at 2023-07-04T09:51:12.962
+Unexpected IOException: 9,1,runner.TestRunner,teardown(runner.TestRunner),null,null,null
+
+
+# Created at 2023-07-04T09:51:13.180
+Unexpected IOException with stream: [32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+[32m[1m?[0m Share your Cucumber Report with your team at [36m[1m[4mhttps://reports.cucumber.io[0m          [32m[1m?[0m
+[32m[1m?[0m Activate publishing with one of the following:                                    [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m Environment variable:                            [36mCUCUMBER_PUBLISH_ENABLED[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m JUnit:                                           [36m@CucumberOptions[0m(publish = [36mtrue[0m) [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m More information at [36mhttps://cucumber.io/docs/cucumber/environment-variables/[0m      [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m Disable this message with one of the following:                                   [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+
+
+# Created at 2023-07-04T09:51:13.393
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,runner.TestRunner,null,null,null
+
+

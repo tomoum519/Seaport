@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="152.032">
+    <testcase classname="Vessel Search" name="Check the page elements and add documents and reset the page" time="50.866">
+        <system-out><![CDATA[Given login Vission Dashboard and go to SeaPort.............................passed
+And switch window...........................................................passed
+And User navigate to Vessel Registration....................................passed
+When Register with vessel english name "TOM" and nationality "Egypt" and vessel type "other" and uniqe IMO.passed
+And Click save in vessel Registration page..................................passed
+And Click Yes on navigate license is missing popup..........................passed
+When Switch to default frame................................................passed
+And User navigate to Vessel Search..........................................passed
+When Switch to Iframe "frame2"..............................................passed
+Then Check elements.........................................................passed
+When Enter IMO Number.......................................................passed
+And Click search in Vessel Search Page......................................passed
+Then Check table titles "VESSEL NAME" , "VESSEL FLAG" , "OFFICIAL NUMBER" , "IMO NO" , "VESSEL TYPE" , "OWNER NAME" , "NAVIGATION LICENSE NUMBER" , "LICENSE EXPIRY DATE" , "BLOCK".passed
+And The search result in Vessel Search Page.................................passed
+When Switch to default frame................................................passed
+And scroll down.............................................................passed
+When Switch to Iframe "frame2"..............................................passed
+And Click add document in Vessel Search Page................................passed
+And Enter document name document type "706" and file name "save.pdf"........passed
+And Vessel Search Doument added sucessfully.................................passed
+Then Click reset in Vessel Search Page......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Vessel Search" name="Search for not existing vessel" time="16.822">
+        <system-out><![CDATA[Given login Vission Dashboard and go to SeaPort.............................passed
+And switch window...........................................................passed
+And User navigate to Vessel Search..........................................passed
+When Switch to Iframe "frame1"..............................................passed
+When Enter IMO Number not exist in vessel search............................passed
+And Click search in Vessel Search Page......................................passed
+Then Check that no register vessel msg "There is no registered vessel. Please register a new vessel".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Vessel Search" name="update vessel and block vessel" time="65.526">
+        <system-out><![CDATA[Given login Vission Dashboard and go to SeaPort.............................passed
+And switch window...........................................................passed
+And User navigate to Vessel Registration....................................passed
+When Register with vessel english name "TOM" and nationality "Egypt" and vessel type "other" and uniqe IMO.passed
+And Check true navigation licence...........................................passed
+And Click save in vessel Registration page..................................passed
+When Switch to default frame................................................passed
+And User navigate to Vessel Search..........................................passed
+When Switch to Iframe "frame2"..............................................passed
+When Enter IMO Number.......................................................passed
+And Click search in Vessel Search Page......................................passed
+And The search result in Vessel Search Page.................................passed
+When Switch to default frame................................................passed
+And scroll down.............................................................passed
+When Switch to Iframe "frame2"..............................................passed
+And Click edit in vessel search page........................................passed
+And Update vessel english name in vessel search page........................passed
+And Click update in vessel search page......................................passed
+Then Vessel updated successfully msg "Vessel updated successfully.".........passed
+And Click block in vessel search page.......................................passed
+And Write the reason of the block "test"....................................passed
+And Click block popup in vessel search page.................................passed
+When Switch to default frame................................................passed
+And scroll down.............................................................passed
+When Switch to Iframe "frame2"..............................................passed
+Then Vessel blocked successfully msg "Vessel Blocked Successfully"..........passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T14:58:52 EET" name="Default suite" finished-at="2023-08-10T15:01:25 EET" duration-ms="152983">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@304bb45b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-08-10T14:58:52 EET" name="Default test" finished-at="2023-08-10T15:01:25 EET" duration-ms="152983">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T14:58:52 EET" name="setUpClass" finished-at="2023-08-10T14:58:52 EET" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70ecf57b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T14:58:52 EET" name="setup" finished-at="2023-08-10T14:59:00 EET" duration-ms="8081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T14:59:00 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-10T14:59:52 EET" duration-ms="51065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the page elements and add documents and reset the page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vessel Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T14:59:52 EET" name="setup" finished-at="2023-08-10T14:59:57 EET" duration-ms="5057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T14:59:57 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-10T15:00:13 EET" duration-ms="16834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for not existing vessel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vessel Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T15:00:13 EET" name="setup" finished-at="2023-08-10T15:00:19 EET" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T15:00:19 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-10T15:01:24 EET" duration-ms="65548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["update vessel and block vessel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vessel Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@304bb45b]" started-at="2023-08-10T15:01:24 EET" name="tearDownClass" finished-at="2023-08-10T15:01:25 EET" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

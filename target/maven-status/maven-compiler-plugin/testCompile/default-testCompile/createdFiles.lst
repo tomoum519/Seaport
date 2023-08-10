@@ -1,0 +1,13 @@
+pages\RegisterOwnerPage.class
+pages\BasePage.class
+pages\VesselRegistrationPage.class
+pages\OwnerSearchPage.class
+StepDefinitions\OwnerRegistrationSteps.class
+pages\IssueVesselPermitPage.class
+pages\LoginPage.class
+pages\HomePage.class
+StepDefinitions\VesselRegestrationSteps.class
+StepDefinitions\IssueVesselPermitSteps.class
+test\test.class
+runner\TestRunner.class
+test\TestBase.class
